@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 25px;
+    background-color: #fff
+
+}
+
+.qrCode {
+    border-radius: 15px;
+    width: 25em;
+   
+    margin-bottom: 20px;
+}
+.titulo {
+    text-align: center;
+    
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    margin: 15px;
+    width: 90%;
+}
+
+.frase {
+
+    font-size: 1.2rem;
+    color: gray;
+    text-align: center;
+
+}
+
+@media (min-width: 320px) {
+    .card {
+        width: 90%;
+        padding: 10px 10px;
+    }
+
+    .qrCode {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.1rem;
+    }
+
+    .frase {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 360px) {
+    .card {
+        width: 90%;
+        padding: 15px 15px;
+    }
+
+    .qrCode {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.2rem;
+    }
+
+    .frase {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 400px) {
+    .card {
+        width: fit-content;
+        padding: 15px 15px;
+    }
+
+    .qrCode {
+        width: 320px;
+    }
+
+    .titulo {
+        font-size: 1.3rem;
+    }
+
+    .frase {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+}
+    @media (min-width: 460px) {
+        .card {
+            width: fit-content;
+            padding: 15px 15px;
+        }
+    
+        .qrCode {
+            width: 320px;
+        }
+    
+        .titulo {
+            font-size: 1.3rem;
+        }
+    
+        .frase {
+            margin: 10px 0 20px;
+            font-size: 15px;
+        }
+}
